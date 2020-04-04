@@ -16,11 +16,13 @@ header {
     width: 100%;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0.2) 100%);
     box-shadow: -10px 15px 20px #000000, 5px -6px 20px black;
+    position: fixed;
+    top: 0px;
 }
 
 .h1 {
     display: inline-block;
-    vertical-align: 57px;
+    vertical-align: 36px;
 }
 
 .heading1,
@@ -56,7 +58,6 @@ header {
 }
 
 .flag {
-    height: 150px;
     width: 20%;
     top: 4px;
 }
@@ -152,6 +153,10 @@ header {
         transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
     }
 }*/
+
+.days {
+    margin-top: 130px;
+}
 
 .today {
     height: 100px;
